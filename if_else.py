@@ -6,11 +6,11 @@ GRADE = 60
 
 if GRADE >= 90:
     LETTER = 'A'
-elif GRADE >= 80:
+elif 80 <= GRADE < 90:
     LETTER = 'B'
-elif GRADE >= 70:
+elif 70 <= GRADE < 80:
     LETTER = 'C'
-elif GRADE >= 60:
+elif 60 <= GRADE < 70:
     LETTER = 'D'
 else:
     LETTER = 'F'
